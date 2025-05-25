@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f0ea;
+    color: #798252;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    padding: 2rem;
+    background-color: #331f19;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2, h3 {
+    color: #331f19;
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #ccd595;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 3px solid #ccd595;
+    outline: none;
+    border-radius: 10px;
+    background-color: #f4f0ea;
+}
+
+input::placeholder, label.placeholder {
+    color: #7b726f;
+}
+
+select {
+    cursor: pointer;
+    background-color: #ccd595;
+    color: #331f19;
+    border-radius: 5px;
+    padding: 0.5rem;
+    outline: none;
+}
+
+img {
+    width: 13rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ccd595;
+    color: #331f19;
+    padding: 0.5rem;
+}
+
+td{
+    color:#331f19;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331f19;
+    color: #f4f0ea;
+}
+
+details {
+    background-color: #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331f19;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+ol {
+    color: #331f19;
+    margin-left: 2rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+#feedback {
+    color: #f4f0ea;
+}
+
+#caixa {
+    background-color: #f4f0ea;
+    border-radius: 5px;
+}
+
+fieldset {
+    color: #f4f0ea;
+    border: 3px solid #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 1rem;
+}
+
+label {
+    color: #331f19;
+    padding: 0.5rem;
+}
+
+textarea {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 3px solid #ccd595;
+    background-color: transparent;
+}
+
+button {
+    background-color: #ccd595;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+    color: #331f19;
+    cursor: pointer;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #331f19;
+}
+
+.paragrafo-footer {
+    color: #f4f0ea;
+    text-align: center;
+}
